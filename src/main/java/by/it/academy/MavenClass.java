@@ -1,4 +1,4 @@
-package by_it_academy;
+package by.it.academy;
 
 public class MavenClass {
 
