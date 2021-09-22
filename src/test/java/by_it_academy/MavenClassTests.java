@@ -9,13 +9,13 @@ public class MavenClassTests {
 
     @Test
     public void testResultOfCalculation() {
-        int result = mavenClass.calculateSmth(4);
+        int result = mavenClass.summarazingNumbers(4);
         assertEquals(8, result);
-        assertEquals(-4, mavenClass.calculateSmth(-2));
+        assertEquals(-4, mavenClass.summarazingNumbers(-2));
     }
 
     @Test
     public void NullCase() {
-        assertEquals(0, mavenClass.calculateSmth(null));
+        assertEquals(0, mavenClass.summarazingNumbers(null));
     }
 }

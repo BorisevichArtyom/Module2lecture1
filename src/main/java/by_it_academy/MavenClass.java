@@ -7,7 +7,7 @@ public class MavenClass {
         return "Maven Borisevich";
     }
 
-    public int calculateSmth(Integer randomNumber) {
+    public int summarazingNumbers(Integer randomNumber) {
         if (randomNumber == null) {
             return 0;
         }
